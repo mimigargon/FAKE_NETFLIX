@@ -15,10 +15,31 @@ a {
 
 //PALETTE
 :root {
-    --background: black; 
-    --background-light: whitesmoke; 
-    --paragraph: white;
-    --paragraph-light: black;
-    --headline: #DB202C; 
-    --headline-light: #DB202C;
+    --background: #221F1F; 
+    --background-light: #F5F5F1; 
+    --paragraph: #F5F5F1;
+    --paragraph-light: #221F1F;
+    --headline: #E50914; 
+    --headline-light: #B81D24;
+}
+
+//GLOBAL STYLES
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+body {
+    scroll-behavior: smooth;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    background-color: var(--background);
+    color: var(--paragraph);
+    transition: all 0.5s;
+}
+
+.dark {
+    background-color: var(--background-light);
+    color: var(--paragraph-light);
+}
+
+h1, h2, h3, h4 {
+    color: var(--headline);
 }

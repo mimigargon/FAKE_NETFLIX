@@ -12,7 +12,7 @@ public themeText: string = "☀️";
   constructor() {
     this.navInfo = {
       logo: {
-        src: "../../../assets/logo.png",
+        src: "../../../assets/images/LOGO/logo.png",
         alt: "Falseflix logo"
       },
       links: [{
