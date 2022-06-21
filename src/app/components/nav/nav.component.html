@@ -1,0 +1,13 @@
+<nav>
+    <ul>
+        <li>
+            <img src="{{navInfo.logo.src}}" alt="{{navInfo.logo.alt}}"/>
+        </li>
+        <li *ngFor="let link of navInfo.links">
+            <a href="{{link.link}}">{{link.text}}</a>
+        </li>
+        <li (click)="changeTheme()" class="themeChanger">
+            {{themeText}}
+        </li>
+    </ul>
+</nav>
