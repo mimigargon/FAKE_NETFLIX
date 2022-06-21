@@ -1,23 +1,39 @@
 nav {
     ul {
-        height: 10vh;
+        height: 12vh;
         display: flex;
-        justify-content: space-around;
+        justify-content: space-evenly;
         align-items: center;
+        flex-direction: row;
     }
 
     img {
-        width: 160px;
+        width: 125px;
+        cursor: pointer;
     }
 
-    a {
-        color: var(--headline);
-        transition: all 0.3s;
-        text-transform: uppercase;
+    li {
+        a {
+            color: var(--headline);
+            transition: all 0.3s;
+            text-transform: uppercase;
+            font-size: 15px;
+    
+            &:hover {
+                color: var(--headline-light);
+               
+            }
+        }
 
         &:hover {
-            color: var(--headline-light)
+            animation: scale 1s;
         }
+
+    }
+
+    @keyframes scale {
+        0% {transform: scale(1.5);}
+    100% {transform: scale(1)}
     }
 }
 

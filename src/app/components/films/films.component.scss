@@ -1,0 +1,28 @@
+.films {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 10px;
+    padding-left: 30px;
+    margin-top: 20px;
+
+    h2 {
+        margin-bottom: 10px;
+    }
+
+    ul {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+    }
+
+    img {
+        width: 210px;
+        height: 145px;
+        object-fit: cover;
+        border-radius: 10%;
+        box-shadow: -21px -9px 21px 6px #000000;
+      }
+  
+}

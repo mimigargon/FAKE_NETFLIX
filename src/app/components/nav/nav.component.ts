@@ -16,16 +16,24 @@ public themeText: string = "☀️";
         alt: "Falseflix logo"
       },
       links: [{
-        text: "Home",
+        text: "Inicio",
         link: "#home"
       },
     {
-      text: "Films",
+      text: "Películas",
       link: "#films"
     },
   {
-    text: "Series",
+    text: "Series TV",
     link: "#series"
+  },
+  {
+    text: "Novedades más vistas",
+    link: "#new&popular"
+  },
+  {
+    text: "Mi Lista",
+    link: "#mylist"
   }]
     }
    }
